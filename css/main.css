@@ -1,0 +1,176 @@
+/*******************
+TESTING TOOLS
+********************/
+
+.b {
+    border: 5px solid red;
+}
+
+/* .l {
+    text-align: center;
+    padding: 30px;
+} */
+
+
+
+/*******************
+GENERAL
+********************/
+
+.background {
+    /* background: url("../img/background_cross.png") no-repeat; */
+    background-size: 100%;
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+
+
+/*******************
+HEADING
+********************/
+
+.main-header {
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.logo {
+    float: left;
+}
+
+.generate {
+   float: right;
+}
+
+
+
+/*******************
+NAVIGATION
+********************/
+
+.nav {
+    display: inline-block;
+    font-size: x-large;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+
+
+/*******************
+MAIN CONTENT
+********************/
+
+.mainC {
+    display: flex;
+    margin: auto;
+    padding: 0 5%;
+    flex-wrap: wrap;
+}
+
+#gallery {
+    margin: auto;
+    padding: 10px;
+    list-style: none;
+}
+  
+#gallery li {
+    width: 40%;    
+    background-color: grey;
+    color: #bdc3c7;
+    border-radius: 10px;
+    margin: 5%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#gallery li a {
+    text-decoration: none;
+    margin: auto;
+       
+}
+
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 30px;
+    color: blue;
+}
+
+.mainC img {
+    max-width: 100%;
+}
+
+
+
+/*******************
+FOOTER
+********************/
+
+.main-footer {
+    margin-top: auto;
+} 
+
+
+
+/*******************
+RESPONSIVE
+********************/
+
+@media screen and (min-width: 480px) {
+    .background {
+        background: url("../img/background_cross.png") no-repeat;
+        background-size: 100%;
+        background-color: black;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #gallery li {
+        width: 90%;
+        margin: 5%;
+    }
+}
+
+
+/*******************
+IDEAS
+********************/
+
+/* On mouse-over, add a deeper shadow */
+.hover:hover {
+    box-shadow: 0 8px 16px 0 white;
+}
+  
+
+
+
+
+
+/* .parallax { 
+    
+    background-image: url("../img/grayscale_cross.jpg");
+    
+    
+    height: 500px; 
+    
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */

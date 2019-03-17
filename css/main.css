@@ -42,6 +42,11 @@ HEADING
     float: left;
 }
 
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
 .generate {
    float: right;
 }

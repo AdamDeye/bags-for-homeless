@@ -2,9 +2,9 @@
 TESTING TOOLS
 ********************/
 
-.b {
+/* .b {
     border: 5px solid red;
-}
+} */
 
 /* .l {
     text-align: center;
@@ -20,11 +20,15 @@ GENERAL
 .background {
     /* background: url("../img/background_cross.png") no-repeat; */
     background-size: 100%;
-    background-color: black;
+    background-color: #000000;
 }
 
 p {
-    color: white;
+    color: #00FF51;
+}
+
+a {
+    color: #00FF51;
 }
 
 
@@ -38,17 +42,23 @@ HEADING
     margin-bottom: auto;
 }
 
-.logo {
+.dot {
     float: left;
+    height: 150px;
+    width: 150px;
+    background-color: #000000;
+    border-radius: 50%;
+    /* display: inline-block; */
 }
 
 h1 {
-    color: white;
-    font-size: 60px;
+    color: #000000;
+    font-size: 80px;
 }
 
 .generate {
    float: right;
+   width: 40%;
 }
 
 
@@ -72,7 +82,7 @@ NAVIGATION
 
 .nav ul li {
     display: inline;
-}
+   }
 
 
 
@@ -96,7 +106,7 @@ MAIN CONTENT
 #gallery li {
     width: 40%;    
     background-color: grey;
-    color: #bdc3c7;
+    color: #00FF51;
     border-radius: 10px;
     margin: 5%;
     float: left;
@@ -113,7 +123,7 @@ MAIN CONTENT
     margin: 0;
     padding: 5%;
     font-size: 30px;
-    color: blue;
+    color: #00FF51;
 }
 
 .mainC img {
@@ -138,9 +148,9 @@ RESPONSIVE
 
 @media screen and (min-width: 480px) {
     .background {
-        background: url("../img/background_cross.png") no-repeat;
-        background-size: 100%;
-        background-color: black;
+        background: linear-gradient(to bottom, #55e883 0%, #000000 30%);
+        /* background-size: 100%; */
+        /* background-color: black; */
     }
 }
 
@@ -148,6 +158,22 @@ RESPONSIVE
     #gallery li {
         width: 90%;
         margin: 5%;
+    }
+
+    h1 {
+        color: #55e883;
+    }
+
+    .dot {
+        background-color: #55e883;
+        float: none;
+        margin: 5%;
+        display: inline-block;
+    }
+
+    .generate {
+        float: none;
+        margin: auto;
     }
 }
 

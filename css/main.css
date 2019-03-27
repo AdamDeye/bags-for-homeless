@@ -48,7 +48,7 @@ HEADING
     width: 150px;
     background-color: #000000;
     border-radius: 50%;
-    /* display: inline-block; */
+    margin-left: 5%;
 }
 
 h1 {
@@ -149,8 +149,6 @@ RESPONSIVE
 @media screen and (min-width: 480px) {
     .background {
         background: linear-gradient(to bottom, #55e883 0%, #000000 30%);
-        /* background-size: 100%; */
-        /* background-color: black; */
     }
 }
 
